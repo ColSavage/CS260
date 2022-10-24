@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color:  #ebedef;
+
+}
+h1 {
+    background-color:  #212f3c;
+    color: #fdfefe ;
+    font-size: 4em;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    text-align: center;
+    padding-bottom: .2em;
+    color: #2874a6;
+}
+
+p {
+    padding-bottom: 1em;
+
+}
+
+.words p {
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.8em;
+    padding-top: 20px;
+}
+
+.container {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: bottom;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: top;
+    background-color:  #d6eaf8;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav a:hover {
+    background-color: #fdfefe;
+}
+
+.nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1em 1.2em;
+    text-decoration: none;
+}
+.item {
+    width: 50%;
+    height: auto;
+}
+
+.background {
+    background-color: #d5dbdb; 
+    padding-left: .5em;
+}
+
+
+.cool-things {
+    background-color: #d5dbdb;
+
+}
+
+.songs {
+    padding-left: 1.7em;
+}
+
+

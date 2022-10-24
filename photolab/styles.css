@@ -1,0 +1,245 @@
+.navbar {
+    padding: 0 !important;
+    height: 90px;
+}
+
+.navbar-brand {
+    margin-left: 16px !important;
+    margin-right: 0 !important;
+    justify-content: center !important;
+}
+
+.navbar-nav{
+    text-align: right !important;
+    background-color:  #ebf5fb;
+    
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-light {
+    background-color: #ebf5fb !important;
+}
+
+.nav-item:hover {
+    background-color: #f4f6f6;
+    }
+
+.nav-item {
+    display: flex;
+    line-height: 74px !important;
+    width: 100%;
+    justify-content: center !important;
+}
+
+.nav-link {
+    width: 100%;
+    text-align: center;
+}
+body {
+   background-color:  #ebf5fb;
+}
+
+img {
+    width: 100% !important;
+}
+
+.home-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.layout {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: normal;
+}
+
+.overview {
+    justify-content: center;
+    padding: 20px;
+    margin: 25px;
+    font-family: "Courier New", sans-serif;
+    border: 4px solid cyan;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.early-review {
+    height: 100px;
+    padding-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1.8em;
+    text-align: center;
+    word-wrap: break-word;
+    text-decoration: underline;
+    font-family: "Marker Felt", fantasy, sans-serif;
+}
+
+.about {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #73c6b6;
+}
+
+.hello {
+    font-size: 4em;
+    font-family: "Marker Felt", fantasy, sans-serif;
+    color: #45b39d;
+    word-wrap: break-word;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-style: italic;
+}
+
+.header-review {
+    text-align: center;
+    font-size: 3em;
+    font-family: "Marker Felt", fantasy, sans-serif;
+    background-color: #ABEBC6;
+}
+
+.page {
+    background-color: #E8F8F5;
+    margin: auto;
+}
+
+.comment {
+    width: 80%;
+    margin: auto;
+    margin-top: 16px;
+}
+
+@media only screen and (min-width: 961px) {
+    .nav-link {
+        width: 5em;
+        
+    }
+    img {
+        width: 50% !important;
+        align-self: flex-start;
+    }
+    
+    .layout {
+        width: 47%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+    
+    .overview {
+        justify-content: center;
+        align-self: center;
+        padding: 20px;
+        margin: 16px;
+        font-size: 1.8em;
+        height: auto;
+    }
+    
+    .sec-row {
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .item {
+        order: 1;
+    }
+    
+    .item2 {
+        order: -1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .early-review {
+        padding: 25px;
+        align-self: center;
+    }
+    
+    .review {
+        padding: 0;
+        margin: 16px;
+    }
+    
+    .grid {
+        justify-content: center;
+    }
+    .image img {
+        width: 100% !important;
+    }
+    .image {
+        width: 33.3%;
+
+    }
+    
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .about-cont {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    
+    .about-cont img {
+        width: 100% !important;
+    }
+    
+    .row-about {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .about {
+        text-align: center;
+        font-size: 1.3em;
+        width:80%;
+    }
+    
+    .page {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header-review {
+        width: 100%;
+    }
+    .comment {
+        heigh: auto;
+    }
+}
