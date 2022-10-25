@@ -18,13 +18,13 @@ function getCost(cost) {
     if(cost === 0) {
         num = "Free!";
     }
-    else if(cost > 0 && cost < .4) {        1,2
+    else if(cost > 0 && cost < .4) {        
         num = "$";
     }
-    else if(cost > .3 && cost < .7) {       3,4
+    else if(cost > .3 && cost < .7) {   
         num = "$$";
     }
-    else if(cost > .6 && cost <= .9) {       5,6
+    else if(cost > .6 && cost <= .9) {      
         num = "$$$";
     }
     else if(cost > .9) {
