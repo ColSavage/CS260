@@ -12,7 +12,6 @@ function getDetails(json) {
     return result;
 }
 
-
 function getCost(cost) {
     var num = "";
     if(cost === 0) {
