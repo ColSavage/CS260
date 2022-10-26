@@ -1,0 +1,3 @@
+[submodule "lab3/lab-3-react-ColSavage"]
+	path = lab3/lab-3-react-ColSavage
+	url = https://github.com/BYU-CS-260/lab-3-react-ColSavage.git
